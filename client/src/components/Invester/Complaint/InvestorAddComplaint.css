@@ -1,0 +1,48 @@
+.inv_addcomp_sub_h3{
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: center;
+  
+}
+
+.inv_addcomp_hr_line{
+  width: 96px;
+  border: 2px solid #06A3DA;
+  margin-left: 585px;
+}
+
+.inv_add_complaint{
+    background: #D9F5FF;
+    width: 700px;
+    height: 466px;
+    margin-left: 210px;
+
+
+}
+
+.inv_compl_text{
+    border: none;
+    outline: none;
+    width: 490px;
+    height: 250px;
+    background: #EEF9FF;
+}
+
+.inv_compl_btn_div{
+    display: flex;
+    gap:100px;
+    margin-top: 30px;
+    margin-left: 290px;
+}
+
+.inv_compl_btn{
+    border: none;
+    width: 130px;
+    height: 38px;
+    background: #3485D0;
+    color: #fff;
+
+
+}

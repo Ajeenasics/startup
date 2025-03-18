@@ -1,0 +1,90 @@
+
+
+.ad_invaccept_profile{
+    /* width: 380px; */
+    min-height: 540px;
+    height: fit-content;
+    background: #EEF9FF;
+}
+
+.ad_invaccept_profile_pic_div{
+    width: 320px;
+    height: fit-content;
+    min-height: 328.08px;
+}
+
+.ad_invaccept_profile_pic{
+    width: 234px;
+    height: 234px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 117px;
+
+}
+.ad_invaccept_fname{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Nunito;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+
+}
+.ad_invaccept_details1{
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.ad_invaccept_details2{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.ad_invaccept_gfg {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+.ad_invaccept_name{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.55px;
+    text-align: center;
+    color: #7C7B7B;
+
+}
+.ad_invaccept_head{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+    color: #06A3DA;
+
+}
+.ad_invaccept_btn{
+    width: 120px;
+    height: 38px;
+    background: #3AAB46;
+    border:none;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 18.41px;
+    text-align: center;
+
+}
+.ad_invaccept_cancelbtn{
+    width: 120px;
+    height: 38px;
+    background: #D9190D;
+    border:none;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 18.41px;
+    text-align: center;
+    margin-left: 60px;
+}

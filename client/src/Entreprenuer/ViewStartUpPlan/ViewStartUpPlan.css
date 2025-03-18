@@ -1,0 +1,105 @@
+.ent_viewsplan_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+}
+.ent_viewsplan_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+}
+
+.ent_viewsplan_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 515px;
+}
+
+.ent_viewsplan_profile{
+    width: 380px;
+    height:fit-content;
+    min-height:460px;
+    border: 0px 1px 0px 0px;  
+    background: #EEF9FF;
+    border-right: 1px solid #00000040;
+    box-shadow: 0px 4px 12.4px 0px #00000026;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 5%;
+}
+
+
+.ent_viewsplan_subhead{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.1px;
+    color: #058FBF;
+
+}
+
+.ent_viewsplan_value{
+    width: 164px;
+    height: 22px;
+    top: 72px;
+    left: 39px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000000;
+    border: none;
+    background: #EEF9FF;
+
+
+}
+
+.ent_viewsplan_reqbtn_div{
+    margin-top: 30px;
+}
+
+
+
+.ent_viewsplan_reqbtn{
+    width: 166px;
+    height: 46px;
+    top: 404px;
+    left: 863px;
+    box-shadow: 0px 4px 6.9px 0px #00000040;
+    background: #00B0F0;
+    color: #fff;
+    border: #fff;
+
+}
+
+.ent_viewsplan_editbtn{
+    width: 35px;
+    height: 37px;
+    margin-left: 15px;
+    background: #00B0F0;
+    box-shadow: 0px 4px 4.3px 1px #00000040;
+    color: #fff;
+    border: #fff;
+
+
+
+}
+
+.ent_viewsplan_delbtn{
+    width: 35px;
+    height: 37px;
+    margin-left: 15px;
+    border: #fff;
+    background: #00B0F0;
+    box-shadow: 0px 4px 4.3px 1px #00000040;
+    color: #fff;
+
+}

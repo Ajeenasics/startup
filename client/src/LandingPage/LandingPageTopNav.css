@@ -1,0 +1,268 @@
+
+
+
+.landingpagemaindiv {
+  background-image: url("../assets/landing_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  border-image:fill 0 linear-gradient(#0003,#000)
+}
+
+.hero_text{
+  width: 620px;
+  height: 132px;
+  color: #ffffff;
+  padding-top: 222px;
+  margin-left: 350px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  text-align: center;
+    
+}
+
+.hero_contact_btn{
+  width: 124px;
+  height: 56px;
+  color: #ffffff;
+  border:1px solid #ffffff;
+  margin-top: 24px;
+  left: 633px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+
+  background:rgba(255,255,255,0.1);
+
+}
+
+.landingpagemainseconddiv {
+  margin-top: -70px;
+  right: 10px;
+  top: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: larger;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.landingpagemainseconddiv2 {
+  background-color: #ffffff;
+  color: rgb(6, 163, 218);
+  max-height: 143px;
+}
+.landingpagemainseconddiv1 {
+  background-color: #06a3da;
+  max-height: 143px;
+}
+
+.branches_img{
+  width: 64px;
+  height: 64px;
+  background: #ffffff;
+  
+}
+
+.hero_span{
+  font-family: Nunito;
+font-size: 24px;
+font-weight: 800;
+line-height: 32.74px;
+text-align: center;
+
+}
+
+.hero_h4_number{
+  font-family: Nunito;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 49.1px;
+  text-align: left;
+  
+}
+
+
+.aboutusheading {
+  padding-top: 10%;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  text-align: left;
+  color: rgb(6, 163, 218);
+}
+
+.aboutus_h2{
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: left;
+  
+}
+
+.aboutus_p{
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 20.94px;
+  text-align: justify;
+  
+}
+.about2 {
+  margin-top: 30%;
+}
+
+.about_img{
+  width: 600px;
+height: 479px;
+
+}
+
+.hr_line{
+  width: 96px;
+  border: 2px solid #06A3DA;
+  margin-left: 510px;
+}
+
+.range_of_service{
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+  
+
+}
+
+.range_of_service_span{
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.55px;
+  text-align: left;
+  
+}
+.range_of_service_img{
+  width: 30px;
+height: 24.95px;
+
+
+}
+
+.why_choose_img{
+    width: 64px;
+    height: 64px;
+    top: 1908px;
+    left: 122px;
+
+}
+
+.why_choose_heading{
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.55px;
+  text-align: left;
+
+}
+.why_choose_p{
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.1px;
+  text-align: justify;
+
+}
+.our_service_img{
+  width: 64px;
+  height: 64px;
+  top: 2802.25px;
+  left: 318px;
+  margin-top: -20px;
+
+}
+
+.our_service_heading{
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  text-align: center;
+  
+}
+
+.our_service_p{
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  text-align: justify;
+  
+
+}
+
+
+.our_service_card {
+  background-color: #eef9ff;
+  width: 480px;
+  max-height: 267px;
+
+  
+  
+
+}
+.mainheadings {
+  color: rgb(6, 163, 218);
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  text-align: center;
+
+}
+
+.why_choose_sub_h3{
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: center;
+  
+}
+
+.our_service_sub_h3{
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: center; 
+}
+
+.navbarstext{
+  color: rgb(6, 163, 218);
+text-decoration: none;
+}
+
+
+#carouselimg1{
+  width: 100%;
+  height:100vh
+}
+.carouseltext{
+  background-color: rgba(9, 30, 62, .7);
+ margin-bottom: 10%;
+ border-radius: 10px;
+
+}
+.carouseltext1{
+  /* padding: 20%; */
+  padding:10%;
+}
+.carouseltext2{
+  padding:13%;
+
+}

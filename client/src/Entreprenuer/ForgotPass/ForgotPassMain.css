@@ -1,0 +1,121 @@
+.ent_forgot_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+}
+.ent_forgot_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+}
+
+.ent_forgot_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 510px;
+}
+
+.ent_forgot_img_div{
+    padding-top: 10px;
+}
+.ent_forgot_img{
+    width: 485px;
+    height: 387px;
+    margin-left: 40px;
+}
+
+
+.ent_forgot_form{
+    margin-left: 20px;
+    gap: 2px;
+    border-color: #EEF9FF;
+}
+
+.ent_forgot_email_label{
+    width: 86px;
+    height: 25px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: center;
+    color: #555252;
+    display: block;
+
+}
+
+.ent_forgot_email{
+    width: 456px;
+    height: 43px;
+    background: #EEF9FF;
+    border: #EEF9FF;
+
+}
+
+.ent_forgot_password_label{
+    width: 80px;
+    height: 25px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: center;
+    color: #555252;
+    display: block;
+
+}
+
+.ent_forgot_password{
+    width: 456px;
+    height: 43px;
+    background: #EEF9FF;
+    border: #EEF9FF;
+    
+}
+
+.ent_forgot_cpassword_label{
+    width: 180px;
+    height: 25px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    color: #555252;
+    display: block;
+
+}
+
+.ent_forgot_cpassword{
+    width: 456px;
+    height: 43px;
+    background: #EEF9FF;
+    border: #EEF9FF;
+    
+}
+.ent_forgot_resetbtn{
+    width: 200px;
+    height: 45px;
+    left: 788px;
+    margin-top: 10px;
+    border: #ffffff;
+    color: #ffffff;
+    background: #00B0F0;
+
+}
+
+.ent_forgot_canclebtn{
+    width: 190px;
+    height: 45px;
+    top: 698px;
+    margin-top: 10px;
+    border: #ffffff;
+    color: #ffffff;
+    background: #00B0F0;
+
+}

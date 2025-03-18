@@ -1,0 +1,62 @@
+.invview_ent_viewsplan_profile{
+    /* width: 380px; */
+    min-height: 428px;
+    border: 0px 1px 0px 0px;
+    background: #EEF9FF;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.invview_ent_viewsplan_subhead{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.1px;
+    color: #058FBF;
+    
+    
+}
+
+.invview_ent_viewsplan_value{
+    width: 164px;
+    height: 22px;
+    top: 72px;
+    /* left: 39px; */
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000000;
+    border: none;
+    background: #EEF9FF;
+
+
+}
+
+.invview_ent_viewsplan_btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap:15px; */
+    margin-top: 110px;
+}
+
+.invview_ent_viewsplan_acptbtn{
+    background: #3AAB46;
+    color: #fff;
+    width: 123px;
+    height: 41px;
+    border: none;
+
+
+}
+
+.invview_ent_viewsplan_rjtbtn{
+    background: #D9190D;
+    color: #fff;
+    width: 123px;
+    height: 41px;
+    border: none;
+
+}

@@ -1,0 +1,19 @@
+.mentor_viewtutrl_video{
+    text-align: center;
+}
+
+.mentor_viewtutrl_subtitle_name{
+    display: grid;
+    grid-template-columns: 1.8fr 2.4fr ;
+    gap: 15px;
+    margin-left: 210px;
+    padding-top: 20px;
+}
+.mentor_viewtutrl_subtitle_title{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 15px;
+    margin-left: 210px;
+    padding-top: 20px;
+    text-align: justify;
+}

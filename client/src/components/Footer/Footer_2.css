@@ -1,0 +1,153 @@
+div.footer2bg {
+    background-color: #091E3E;
+    height: 233px;
+
+}
+
+.foot_2 .row{
+    --bs-gutter-x: 0; 
+}
+
+.foot2_firstcolumn {
+    
+    background-color: #06A3DA;
+    width: 350px;
+    height: 260px;
+    margin-left: 30px;
+    padding-bottom: 12px;
+    position: absolute;
+}
+
+.foot2_firstcolumn::after {
+    
+    
+    background-color: #06A3DA;
+    position: absolute;
+   
+}
+
+.foot2_startuplogo {
+    padding-top: 20px;
+    padding-left: 30px;
+
+
+}
+
+
+.foot2_firstcolumnpara {
+    padding-left: 30px;
+    padding-top: 10px;
+    text-align: justify;
+    width: 256px; 
+    height: 85px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #FFFFFF;
+}
+
+.foot2_secondcolumn{
+    margin-left: 400px;
+}
+
+.foot2_secondcolumncontent {
+
+    padding-top: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.foot2_secondcolumnadress {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 70px;
+   
+   
+}
+
+
+
+.footer_hr_line1{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 110px;
+}
+
+.footer_hr_line2{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 57px;
+}
+
+.footer_hr_line3{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 58px;
+}
+
+.foot2_thirdcolumnadress {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    text-align: justify;
+    padding-left: 50px;
+
+
+}
+
+.foor2_footerbotomset {
+    background-color: #061429;
+}
+
+.foot2_botomcontent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+/* links list */
+
+ul.footer2-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.footer2-list li {
+	padding-left: 2.8em;
+	margin-bottom: 0.7em;
+    position: relative;
+}
+
+ul.footer2-list li::before {
+	content: '';
+	position: absolute;
+	left: -5px;
+	top: -6px;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-image: url("../../assets/arrowlogo.png");
+}
+
+.email_footer{
+    width:30px;
+}

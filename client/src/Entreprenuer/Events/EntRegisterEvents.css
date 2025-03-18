@@ -1,0 +1,21 @@
+.ent_event_reg_div{
+    width:750px;
+    height:500px;
+    background: #D9F5FF;
+    margin-left: 210px;
+
+}
+.ent_event_reg_input{
+    width:400px;
+    background-color: #fff;
+}
+
+.ent_event_register_btn{
+    border: none;
+    background-color: #06A3DA;
+    width:100px;
+    height:40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 300px;
+}

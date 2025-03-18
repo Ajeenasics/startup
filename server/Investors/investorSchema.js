@@ -1,0 +1,61 @@
+const mongoose=require('mongoose')
+
+const investorSchema=mongoose.Schema({
+    name:{
+    type:String,
+    required:true
+},
+    email:{
+    type:String,
+    required:true
+},
+    contact:{
+        type:Number,
+        required:true
+},
+    organization:{
+        type:String,
+        required:true
+},
+    nationality:{
+        type:String,
+        required:true
+},
+    password :{
+        type:String,
+        required:true
+},
+    investing_category:{
+        type:String,
+        required:true
+},
+    occupation:{
+        type:String,
+        required:true
+},
+    description:{
+        type:String,
+        required:true
+},
+    address:{
+        type:String,
+        required:true
+},
+    profile:{
+        type:Object,
+        required:true
+},
+    identification_document:{
+        type:Object,
+        required:true
+},
+    isActive:{
+        default:false,
+        type:Boolean
+    },
+    adminApproved:{
+        default:false,
+        type:Boolean
+    }
+});
+module.exports=mongoose.model('investors',investorSchema)

@@ -1,0 +1,158 @@
+.mentor_pay_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+  
+  }
+
+  .mentor_pay_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+  }
+  .mentor_pay_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 593px;
+}
+
+
+/* form */
+
+
+  
+  .form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    gap: 20px;
+    padding: 50px 100px 50px 100px;
+    
+    background-color: #D0E6E8;
+  }
+  
+
+  
+  .credit-card-info--form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .split {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.8fr 2fr ;
+    gap: 15px;
+  }
+  
+  .split input {
+    width: 100%;
+  }
+
+  .split_label {
+    display: grid;
+    grid-template-columns: 0.6fr 0.7fr  ;
+    gap: 210px;
+  }
+
+  .split_final_pay{
+    display: grid;
+    grid-template-columns: 0.6fr 0.7fr  ;
+  }
+  
+  
+  
+  .input_label_final_pay{
+    background-color: #EEF9FF;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .input_field_final_pay{
+    background: #EEF9FF;
+    width: auto;
+    height: 40px;
+    padding: 0 0 0 26px;
+    outline: none;
+    border: none;
+  }
+  .split .input_field_cvv {
+    width: 70%;
+    margin-left: 150px;
+    border: none;
+    outline: none;
+
+  }
+
+  .split .input_field_date  {
+    width: 300%;
+    border: none;
+    outline: none;
+
+  }
+  .input_field_cvv:focus {
+    border:#fff;
+}
+  
+  .input_label {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .input_field {
+    width: auto;
+    height: 40px;
+    padding: 0 0 0 16px;
+    outline: none;
+    background-color: #ffffff;
+    border: #ffffff00;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  .input_field_date {
+    width: 100%;
+  }
+  
+  .input_field:focus {
+    border: #FFFFFF;
+  }
+  
+  .purchase--btn {
+    height: 45px;
+    width: 100%;
+    background: #06A3DA;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .purchase--btn:hover {
+    box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+  }
+  
+  Reset input number styles
+  .input_field::-webkit-outer-spin-button,
+  .input_field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  

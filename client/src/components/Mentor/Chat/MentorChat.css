@@ -1,0 +1,122 @@
+.men_chat_con{
+    min-height: 100vh;
+}
+
+.men_chat_box{
+    width: 1115px;
+    height: 534px;
+    background: #ffffff;
+}
+
+
+
+.men_chat_nav{
+    width: 1113px;
+    height: 100px;
+    border-bottom: 1px solid #00000080;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 0.2fr 1fr 0.1fr 0.1fr 0.1fr ;
+
+}
+
+.men_chat_profile{
+    width: 82px;
+    height: 82px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+}
+
+.men_chat_name{
+    margin-top:38px ;
+    margin-left: -30px;
+    
+}
+
+
+
+.men_chat_nav_btn{
+    border: none;
+    background: #ffffff;
+
+    
+}
+
+.men_chat_nav_icon{
+    width: 37px;
+    height: 34px;
+}
+
+.men_chat_message_left{
+    width: 550px;
+    height: auto;
+    background: #EEF9FF;
+    border-radius:0px 32px 32px 32px;
+}
+
+.men_chat_message_right{
+    width: 550px;
+    height: auto;
+    background: #06A3DA;
+    border-radius:32px 0px 32px 32px;
+}
+
+
+
+.men_chat_foot{
+    width: 1115px;
+    height: 104px;
+    top: 1068px;
+    left: 203px;
+    background: #C7E0EA;
+    display: grid;
+    flex-direction: row;
+    /* gap:-10px; */
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.6fr 0.1fr 1fr;
+
+    
+}
+
+.men_chat_foot_btn{
+    border: none;
+    background: #C7E0EA;
+    width:90px;
+
+
+    
+}
+
+
+
+.men_chat_foot_input_div{
+    width: 700px;
+    height: 60px;
+    background: #EEF9FF;
+    border-radius: 32px 32px 32px 32px;
+    border: none;
+    margin-top:22px;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-size: 1rem;
+    
+}
+
+input {
+    border: none;
+    width: 620px ;
+    height: 50px;
+    background: #EEF9FF;
+    outline: none;
+    
+}
+
+.men_chat_foot_mic{
+    border: none;
+    background: #EEF9FF;
+    margin-left: -70px;
+}
+
+
+

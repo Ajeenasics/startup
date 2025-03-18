@@ -1,0 +1,52 @@
+.ent_menview_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+}
+.ent_menview_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+}
+
+.ent_menview_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 515px;
+}
+
+.ent_menview_profile{
+    width: 233px;
+    height: 320px;
+    background: #EEF9FF;
+}
+.ent_menview_profile_pic{
+    width: 233px;
+    height: 247px;
+
+}
+.ent_menview_name{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.55px;
+    text-align: center;
+    color: #7C7B7B;
+
+}
+.ent_menview_fname{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+    color: #06A3DA;
+    text-decoration: none;
+
+}

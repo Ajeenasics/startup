@@ -1,0 +1,127 @@
+.ent_chat_con {
+    min-height: 100vh;
+}
+
+.ent_chat_box {
+    width: 1115px;
+    height: 534px;
+    background: #ffffff;
+}
+
+.ent_chat_nav {
+    width: 1113px;
+    height: 100px;
+    display: grid;
+    flex-direction: row;
+    /* gap: 10px; */
+    grid-template-columns: 0.2fr 1fr 0.1fr 0.1fr 0.1fr;
+}
+
+.ent_chat_profile {
+    width: 82px;
+    height: 82px;
+    margin-left: 20px;
+}
+
+.ent_chat_name {
+    margin-left: -30px;
+}
+
+.ent_chat_nav_btn {
+    border: none;
+    background: #ffffff;
+}
+
+.ent_chat_nav_icon {
+    width: 37px;
+    height: 34px;
+}
+
+.ent_chat_container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 60px;
+}
+
+.ent_chat_messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.ent_chat_message_left {
+    display: flex;
+    margin: 10px 0;
+    align-self: flex-start;
+    width: 550px;
+    height: auto;
+    background: #EEF9FF;
+    border-radius: 0px 32px 32px 32px;
+    margin-top: 10px;
+}
+
+.ent_chat_message_right {
+    display: flex;
+    margin: 10px 0;
+    align-self: flex-end;
+    width: 550px;
+    height: auto;
+    background: #06A3DA;
+    border-radius: 32px 0px 32px 32px;
+    margin-top: 10px;
+    margin-left: auto; /* Ensure it aligns to the right */
+}
+
+.chat-msg {
+    padding: 10px 5px 5px 20px;
+}
+
+.ent_chat_foot {
+    width: 1115px;
+    height: 104px;
+    top: 1068px;
+    left: 203px;
+    background: #C7E0EA;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.6fr 0.1fr 1fr;
+}
+
+.ent_chat_foot_btn {
+    border: none;
+    background: #C7E0EA;
+    width: 90px;
+}
+
+.ent_chat_foot_input_div {
+    width: 700px;
+    height: 60px;
+    background: #EEF9FF;
+    border-radius: 32px 32px 32px 32px;
+    border: none;
+    margin-top: 22px;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+input {
+    border: none;
+    width: 620px;
+    height: 50px;
+    background: #EEF9FF;
+    outline: none;
+}
+
+.ent_chat_foot_mic {
+    border: none;
+    background: #EEF9FF;
+    margin-left: -70px;
+}

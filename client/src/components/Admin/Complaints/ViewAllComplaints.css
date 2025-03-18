@@ -1,0 +1,24 @@
+.ad_compl_view_des{
+    width: 370px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.ad_invviewcompl_profile_pic{
+    width:53px;
+    height: 53px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ad_compl_ban_btn{
+    width: 84px;
+    height: 26px;
+    background: #3485D0;
+    border: none;
+    color: #fff;
+
+
+}
+
+

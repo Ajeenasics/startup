@@ -1,0 +1,38 @@
+.men_home_nav_sticky{
+    position: sticky;
+    top:-1%;
+}
+
+.men_home_navbar_white {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: medium;
+    z-index: 1;
+    width: 100%;
+    max-height: 70px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+  }
+
+  .men_home_nav_startup_logo{
+    width: 226px;
+    height: 55px;
+  }
+
+  
+  .home_dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: -23px;
+    border-radius: 0%;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+      
+  }
+  .dropdown-item:hover>.li{
+    background-color: #00B0F0;
+    color:#fff
+  }

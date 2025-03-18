@@ -1,0 +1,172 @@
+div.footerbg {
+    background-color: #091E3E;
+    height: 233px;
+
+}
+.foot_softution_logo{
+    color: #FFFFFF;
+    margin-left: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.foot .row{
+         --bs-gutter-x: 0; 
+}
+
+div.firstcolumn {
+    
+    background-color: #06A3DA;
+    width: 350px;
+    height: 254px;
+    margin-left: 30px;
+    padding-bottom: 12px;
+    position: absolute;
+}
+
+div.firstcolumn::after {
+    
+    
+    background-color: #06A3DA;
+    position: absolute;
+   
+}
+
+img.startuplogo {
+    padding-top: 20px;
+    padding-left: 30px;
+
+
+}
+
+
+p.firstcolumnpara {
+    padding-left: 30px;
+    padding-top: 10px;
+    text-align: justify;
+    width: 256px; 
+    height: 85px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #FFFFFF;
+}
+
+.secondcolumn{
+    margin-left: 430px;
+}
+
+h1.secondcolumncontent {
+
+    padding-top: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.secondcolumnadress {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 70px;
+   
+   
+}
+
+.hrlinefirst {
+    width: 105px;
+    height: 0px;
+    border: 3px solid #06A3DA;
+    margin-left: 107px;
+}
+
+.hrlinesecond {
+    width: 95px;
+    height: 0px;
+    border: 3px solid #06A3DA;
+    margin-left: 58px;
+}
+
+.footer_hr_line1{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 110px;
+}
+
+.footer_hr_line2{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 57px;
+}
+
+.footer_hr_line3{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 58px;
+}
+
+.thirdcolumnadress {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    text-align: justify;
+    padding-left: 50px;
+
+
+}
+
+.footerbotomset {
+    background-color: #061429;
+}
+
+.botomcontent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+/* links list */
+
+ul.footer-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.footer-list li {
+	padding-left: 2.8em;
+	margin-bottom: 0.9em;
+    position: relative;
+}
+
+ul.footer-list li::before {
+	content: '';
+	position: absolute;
+	left: -5px;
+	top: -6px;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-image: url("../../assets/arrowlogo.png");
+}
+
+.email_footer{
+    width:30px;
+}

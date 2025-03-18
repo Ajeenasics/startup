@@ -1,0 +1,30 @@
+.ent_viewevents_img{
+    width: 498px;
+height: 326px;
+top: 401px;
+left: 120px;
+
+}
+.ent_viewevent_date_loc{
+    display: flex;
+    /* grid-template-columns: 0.1fr; */
+    gap:100px;
+    
+}
+
+.ent_viewevents_loc{
+    text-align: right;
+}
+
+.ent_tutrl_title{
+    font-size: medium;
+    padding-top: 50px;
+}
+
+.ent_viewevent_register_btn{
+    border: none;
+    background-color: #06A3DA;
+    width:100px;
+    height:40px;
+    color: #fff;
+}

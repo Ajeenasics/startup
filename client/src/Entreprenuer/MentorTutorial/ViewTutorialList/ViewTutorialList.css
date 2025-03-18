@@ -1,0 +1,86 @@
+.mentor_viewtutorial_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+  
+  }
+
+  .mentor_viewtutorial_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+  }
+  .mentor_viewtutorial_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 593px;
+}
+
+.mentor_viewtutorial_sec_col{
+  background-color: #EEF9FF;
+}
+
+.mentor_viewtutorial_fir_col{
+  background-color: #EEF9FF;
+}
+
+.mentor_viewtutorial_mainrow{
+  padding-bottom: 50px;
+  }
+
+.montor_row_viewtutorial{
+  font-family: 'Nunito' sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.mentor_viewtutorial_sec_col label{
+  font-family: 'Nunito' sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.mentor-icon{
+  color: #06A3DA;
+}
+
+.menter_viewtutorial_btn{
+  width: 20%;
+  height: 40px;
+  font-family: 'Nunito', Verdana;
+  font-size: 18px;
+  border: #e8e8e8;
+  color: #ffffff;
+  background: #06A3DA;
+  box-shadow: 0px 4px 6.9px 0px #00000040;
+}
+
+.mentor_viewtutorial_secbtn{
+  margin-left: 70px;
+}
+
+.mentor_viewtutorial_button_div{
+  padding-top: 20px;
+  text-align: right;
+}
+
+
+.men_tutrl_title{
+    margin-top: 50px;
+}
+.men_tutrl_view{
+    margin-left: 50px;
+    margin-top:50px ;
+    color: #06A3DA;
+    text-decoration: none;
+}

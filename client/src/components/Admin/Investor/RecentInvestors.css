@@ -1,0 +1,10 @@
+.invviewadmin_profile_pic{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.recent_invlist_con{
+    min-height: 100vh;
+}

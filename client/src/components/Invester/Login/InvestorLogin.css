@@ -1,0 +1,91 @@
+
+
+.inv_login_img_div{
+    padding-top: 10px;
+}
+.inv_login_img{
+    width: 505px;
+    height: 387px;
+    /* margin-left: 20px; */
+}
+.inv_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+}
+.inv_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+}
+
+.inv_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 510px;
+}
+
+.inv_loginform{
+    margin-left: 30px;
+    gap: 2px;
+    border-color: #EEF9FF;
+}
+
+.inv_login_email_label{
+    width: 86px;
+    height: 25px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: center;
+    color: #555252;
+    display: block;
+
+}
+
+.inv_login_email{
+    width: 456px;
+    height: 43px;
+    background: #EEF9FF;
+    border: #EEF9FF;
+
+}
+
+.inv_login_password_label{
+    width: 80px;
+    height: 25px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: center;
+    color: #555252;
+    display: block;
+
+}
+
+.inv_login_password{
+    width: 456px;
+    height: 43px;
+    background: #EEF9FF;
+    border: #EEF9FF;
+    
+}
+.inv_login_loginbtn{
+    width: 456px;
+    height: 45px;
+    top: 698px;
+    left: 788px;
+    margin-top: 10px;
+    border: #ffffff;
+    color: #ffffff;
+    background: #00B0F0;
+
+}

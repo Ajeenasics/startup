@@ -1,0 +1,78 @@
+.ad_addevent_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+}
+.ad_addevent_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+}
+
+.ad_addevent_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 587px;
+}
+
+.ad_addevent_div{
+    width: 1110px;
+    height: 456px;
+    top: 323px;
+    left: 125px;
+    background: #D9F5FF;
+    
+}
+
+.ad_addevent_input{
+    width: 339px;
+    height: 51px;
+    background: #FAFDFF;
+
+    
+}
+
+.ad_addevent_input_date{
+    text-decoration: none;
+    width: 339px;
+    height: 51px;
+    background: #FAFDFF;
+    padding: 20px;
+}
+
+.ad_addevent_input_des{
+    width: 339px;
+    height: 118px;
+    background: #FAFDFF;
+    outline: none;
+    border: none;
+
+}
+
+.ad_addevent_addbtn{
+    border: none;
+    width: 144px;
+    height: 44px;
+    background: #06A3DA;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 330px;
+
+    
+}
+.ad_addevent_cancelbtn{
+    border: none;
+    width: 144px;
+    height: 44px;
+    background: #06A3DA;
+    color: #fff;
+    margin-left: 100px;
+
+}
+

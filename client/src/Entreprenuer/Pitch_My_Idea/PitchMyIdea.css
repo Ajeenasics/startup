@@ -1,0 +1,70 @@
+
+  
+.pmi_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+  
+  }
+  
+  .pmi_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+  }
+  .pmi_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 510px;
+}
+
+  .pmi_input {
+    transition: outline 0.2s ease;
+    font-size: 1rem;
+    outline-color: var(--button-text);
+    outline: unset;
+    background: #EEF9FF;
+    border: 1px solid  #ffffff;
+    padding: 17px 10px 10px 17px;
+    width: 465px;
+  }
+
+  .pmi_btn_div{
+    align-items: center;
+    margin-left: 370px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pmi_btn{
+    width: 374px;
+    height: 53px;
+    border: #e8e8e8;
+    left: 765px;
+    color: #ffffff;
+    background: #06A3DA;
+    box-shadow: 0px 4px 6.9px 0px #00000040;
+
+    
+
+
+}
+ 
+.pmi_main_div{
+  margin-left: 70px;
+}
+
+td {
+  width:505px;
+  
+}
+
+
+
+
+

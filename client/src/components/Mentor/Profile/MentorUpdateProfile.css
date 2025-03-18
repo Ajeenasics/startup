@@ -1,0 +1,165 @@
+.men_updateprofile_heading{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    color: #00B0F0;
+    }
+    .men_profile_underline{
+        width: 96px;
+        border: 2px solid #06A3DA;
+        margin-left: 585px;
+        object-position: center;
+    }
+    .men_profile_round{
+        border-radius: 50%;
+        width: 200px; 
+        height: 200px;
+        background-color:#D9D9D9;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .profile-inputtag input {
+       
+        background-color: #EEF9FF;
+        color: #555252;
+        border: none;
+        width: 456px;
+        height: 53px;
+        padding-left: 40px;
+        font-family: minato;
+    }
+    
+    .men_update_profile_expertise{
+      background-color: #EEF9FF;
+        color: #555252;
+        border: none;
+        width: 456px;
+        height: 53px;
+        padding-left: 40px;
+        font-family: minato;
+    }
+    
+    .men_profileupdate_btn{
+        background-color: #06A3DA;
+        color: #FFFFFF;
+        padding: 13px 170px;
+        border: none;
+        width: 456px;
+    
+    }
+    
+    /* profile upload icon */
+    .men_profile_upload {
+        height: 40px;
+        width: 40px;
+        margin-left: 635px;
+        margin-top: -150px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        background: #4d4d4d;
+        padding: 1.0rem;
+        border-radius: 50%;
+        box-shadow: 0px 4px 6.9px 0px #00000040;
+    
+      }
+      
+      .men_profile_upload .icon {
+        display: flex;
+        width:70px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .men_profile_upload .icon svg {
+        height: 80px;
+        fill: #ffffff;
+      }
+      
+      .men_profile_upload .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .text span {
+        font-weight: 400;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 435px;
+        color: #000000;
+      }
+      
+      .men_profile_upload input {
+        display: none;
+      }
+
+      /* id upload */
+    .men_updateid_upload {
+        height: 13px;
+        width: 100px;
+        margin-left: 350px;
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        background: #06A3DA;
+        padding: 1.0rem;
+        border-radius: 80px;
+        box-shadow: 0px 4px 6.9px 0px #00000040;
+
+      
+      }
+      
+      .men_updateid_upload .icon {
+        display: flex;
+        position: absolute;
+        width:70px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .men_updateid_upload .icon svg {
+        height: 80px;
+        fill: #e8e8e8;
+      }
+      
+      .men_updateid_upload .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .text span {
+        font-weight: 400;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 435px;
+        color: #000000;
+      }
+      
+      .men_updateid_upload input {
+        display: none;
+      }
+    
+    
+      
+      .men_updateid_div_upload{
+        margin-top: 24px;
+        margin-left: 44px;
+        max-width: 458px;
+        height: 52px;
+        background: #EEF9FF;
+      }
+      .men_updateid_label{
+        margin-right: 200px;
+      }

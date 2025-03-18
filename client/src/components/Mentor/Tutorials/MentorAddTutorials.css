@@ -1,0 +1,77 @@
+.mentor_addtutorials_mainheading {
+    color: rgb(6, 163, 218);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+  
+  }
+
+  .mentor_addtutorials_sub_h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: center;
+    
+  }
+  .mentor_addtutorials_hr_line{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 593px;
+}
+
+.mentor_addtutorials_maindiv{
+    width: 673px;
+    height: 389px;
+    background-color: #D9F5FF;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.mentor_addtutorials_row{ 
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mentor-addtutorials-input{
+    background-color: white;
+}
+
+.mentor_addtutorials_row p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555252;
+    padding-top: 10px;
+}
+
+.menter_addtutorials_btn{
+    width: 40%;
+    height: 53px;
+    font-family: 'Nunito', Verdana;
+    font-size: 18px;
+    border: #e8e8e8;
+    color: #ffffff;
+    background: #06A3DA;
+    box-shadow: 0px 4px 6.9px 0px #00000040;
+}
+
+.mentor_addtutorials_secbtn{
+    margin-left: 70px;
+}
+
+#tut_input {
+    transition: outline 0.2s ease;
+    font-size: 1rem;
+    outline-color: var(--button-text);
+    outline: unset;
+    background: #EEF9FF;
+    border: 1px solid  #ffffff;
+    padding: 17px 10px 10px 17px;
+    width: 100%;
+  }

@@ -1,0 +1,115 @@
+.your_profile{
+font-family: Nunito;
+font-size: 18px;
+font-weight: 700;
+color: #00B0F0;
+}
+.profile_round{
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    background-color:#D9D9D9;
+    object-fit: cover;
+    object-position: center;
+}
+.yourprofile_underline{
+    width: 96px;
+    border: 2px solid #06A3DA;
+    margin-left: 590px;
+    object-position: center;
+    
+   
+    
+}
+.profile-inputtag input {
+   
+    background-color: #EEF9FF;
+    color: #555252;
+    border: none;
+    width: 456px;
+    height: 53px;
+    padding-left: 40px;
+    font-family: minato;
+}
+
+.select_industry{
+  background-color: #EEF9FF;
+    color: #555252;
+    border: none;
+    width: 456px;
+    height: 53px;
+    padding-left: 40px;
+    font-family: minato;
+}
+
+.yourprofileupdate_btn{
+    background-color: #06A3DA;
+    color: #FFFFFF;
+    padding: 13px 170px;
+    border: none;
+    margin-left: -560px;
+    width: 456px;
+
+}
+
+/* profile */
+.ent_pro_file_upload {
+    height: 13px;
+    width: 100px;
+    margin-left: 330px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    color: #ffffff;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background: #06A3DA;
+    padding: 1.0rem;
+    border-radius: 80px;
+    box-shadow: 0px 4px 6.9px 0px #00000040;
+
+  }
+  
+  .ent_pro_file_upload .icon {
+    display: flex;
+    position: absolute;
+    width:70px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ent_pro_file_upload .icon svg {
+    height: 80px;
+    fill: #e8e8e8;
+  }
+  
+  .ent_pro_file_upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text span {
+    font-weight: 400;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 435px;
+    color: #000000;
+  }
+  
+  .ent_pro_file_upload input {
+    display: none;
+  }
+
+  .ent_pro_file_upload1{
+    margin-top: 24px;
+    margin-left: 44px;
+    width: 456px;
+    height: 52px;
+    padding-right: 330px;
+    font-family: minato;
+    color: #555252;
+    background: #EEF9FF;
+  }

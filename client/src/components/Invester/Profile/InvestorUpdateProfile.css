@@ -1,0 +1,177 @@
+.inv_updateprofile_heading{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    color: #00B0F0;
+    }
+    .inv_profile_underline{
+        width: 96px;
+        border: 2px solid #06A3DA;
+        margin-left: 585px;
+        object-position: center;
+    }
+    .inv_profile_round{
+        border-radius: 50%;
+        width: 200px; 
+        height: 200px;
+        background-color:#D9D9D9;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .profile-inputtag input {
+       
+        background-color: #EEF9FF;
+        color: #555252;
+        border: none;
+        width: 456px;
+        height: 53px;
+        padding-left: 40px;
+        font-family: minato;
+    }
+    
+    .inv_update_profile_industry_sector{
+      background-color: #EEF9FF;
+        color: #555252;
+        border: none;
+        width: 456px;
+        height: 53px;
+        padding-left: 40px;
+        font-family: minato;
+    }
+    
+    .yourprofileupdate_btn{
+        background-color: #06A3DA;
+        color: #FFFFFF;
+        border: none;
+        max-width: 456px;
+        text-align: center;
+        /* margin-top: 25px; */
+        margin-left:   0px;
+    
+    }
+    
+    /* profile upload icon */
+    .inv_profile_upload {
+        height: 40px;
+        width: 40px;
+        margin-left: 635px;
+        margin-top: -150px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        background: #4d4d4d;
+        padding: 1.0rem;
+        border-radius: 50%;
+        box-shadow: 0px 4px 6.9px 0px #00000040;
+    
+      }
+      
+      .inv_profile_upload .icon {
+        display: flex;
+        width:70px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .inv_profile_upload .icon svg {
+        height: 80px;
+        fill: #ffffff;
+      }
+      
+      .inv_profile_upload .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .text span {
+        font-weight: 400;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 435px;
+        color: #000000;
+      }
+      
+      .inv_profile_upload input {
+        display: none;
+      }
+
+      /* id upload */
+    .inv_updateid_upload {
+        height: 13px;
+        width: 100px;
+        margin-left: 330px;
+        margin-top: -45px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        background: #06A3DA;
+        padding: 1.0rem;
+        border-radius: 80px;
+        box-shadow: 0px 4px 6.9px 0px #00000040;
+
+      
+      }
+      
+      .inv_updateid_upload .icon {
+        display: flex;
+        position: absolute;
+        width:70px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .inv_updateid_upload .icon svg {
+        height: 80px;
+        fill: #e8e8e8;
+      }
+      
+      .inv_updateid_upload .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .text span {
+        font-weight: 400;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 435px;
+        color: #000000;
+      }
+      
+      .inv_updateid_upload input {
+        display: none;
+      }
+    
+    
+      
+      .inv_updateid_div_upload{
+        margin-top: 24px;
+        margin-left: 44px;
+        max-width: 458px;
+        height: 52px;
+        background: #EEF9FF;
+      }
+      .inv_updateid_label{
+        margin-right: 150px;
+      }
+
+      .inv_id_update_file_upload2{
+        margin-top: 26px;
+        margin-left: 45px;
+        text-align: left;
+        padding-left: 10px;
+        max-width: 455px;
+        height: 52px;
+        background: #EEF9FF;
+      }
