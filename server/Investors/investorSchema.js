@@ -50,7 +50,7 @@ const investorSchema=mongoose.Schema({
         required:true
 },
     isActive:{
-        default:false,
+        default:true,
         type:Boolean
     },
     adminApproved:{

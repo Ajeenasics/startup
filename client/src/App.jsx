@@ -29,7 +29,7 @@ import InvestorNav from "./components/Invester/InvestorNav/InvestorNav";
 import InvestorHomePage from "./components/Invester/HomePage/InvestorHomePage";
 import Mentorforgotpswd from "./components/Mentor/Mentorforgotpswd";
 import PropertiesList from "./components/Mentor/MentorChat";
-
+import Footer_3 from "./components/Footer/Footer_3"
 function App() {
   const url = "http://localhost:4040";
 
