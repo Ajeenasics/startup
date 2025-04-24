@@ -2,6 +2,7 @@ const Entrepreneur = require("./entrepreneurSchema");
 const jwt = require("jsonwebtoken");
 const secret = "entrepreneur"; // Replace this with your own secret key
 const multer = require("multer");
+const bcrypt=require("bcrypt")
 
 const storage = multer.diskStorage({
   destination: function (req, res, cb) {
@@ -89,70 +90,31 @@ const upload = multer({ storage: storage }).single("image");
 const registerEntrepreneur = async (req, res) => {
   try {
     const {
-      fname,
-      lname,
-      company_name,
-      corporate_id_no,
-      industry_sector,
-      company_description,
-      email,
-      location,
-      contact,
-      address,
-      password,
+      fname, lname, company_name, corporate_id_no,
+      industry_sector, company_description, email,
+      location, contact, address, password,
     } = req.body;
 
-    // Check if the email is already registered
-    let existingEntrepreneurByEmail = await Entrepreneur.findOne({ email });
-    if (existingEntrepreneurByEmail) {
-      return res.status(409).json({
-        msg: "Email Already Registered With Us !!",
-        data: null,
-      });
-    }
+    const existingEmail = await Entrepreneur.findOne({ email });
+    if (existingEmail)
+      return res.status(409).json({ msg: "Email Already Registered With Us !!" });
 
-    // Check if the corporate_id_no is already registered
-    let existingEntrepreneurByCorporateId = await Entrepreneur.findOne({ corporate_id_no });
-    if (existingEntrepreneurByCorporateId) {
-      return res.status(409).json({
-        msg: "Corporate ID Already Registered With Us !!",
-        data: null,
-      });
-    }
+    const existingCorpId = await Entrepreneur.findOne({ corporate_id_no });
+    if (existingCorpId)
+      return res.status(409).json({ msg: "Corporate ID Already Registered With Us !!" });
 
-    // Create a new entrepreneur instance
+    const hashedPassword = await bcrypt.hash(password, 10);
+
     const newEntrepreneur = new Entrepreneur({
-      fname,
-      lname,
-      company_name,
-      corporate_id_no,
-      industry_sector,
-      company_description,
-      email,
-      location,
-      contact,
-      address,
-      password,
-      image: req.file,
+      fname, lname, company_name, corporate_id_no, industry_sector,
+      company_description, email, location, contact, address,
+      password: hashedPassword, image: req.file
     });
 
-    // Save the new entrepreneur to the database
-    await newEntrepreneur
-      .save()
-      .then((data) => {
-        res.status(200).json({
-          msg: "Inserted successfully",
-          data: data,
-        });
-      })
-      .catch((err) => {
-        res.status(500).json({
-          msg: "Data not Inserted",
-          data: err,
-        });
-      });
-  } catch (error) {
-    res.status(500).json({ message: error.message });
+    await newEntrepreneur.save();
+    res.status(200).json({ msg: "Inserted successfully", data: newEntrepreneur });
+  } catch (err) {
+    res.status(500).json({ msg: "Data not Inserted", error: err.message });
   }
 };
 
@@ -333,73 +295,33 @@ const deleteEntrepreneurById = (req, res) => {
 };
 
 // Forgot Password for entrepreneur
-const forgotPassword = (req, res) => {
-  Entrepreneur.findOneAndUpdate(
-    { email: req.body.email },
-    {
-      password: req.body.password,
-    }
-  )
-    .exec()
-    .then((data) => {
-      if (data != null)
-        res.status(200).json({
-          msg: "Updated successfully",
-        });
-      else
-        res.status(500).json({
-          msg: "User Not Found",
-        });
-    })
-    .catch((err) => {
-      res.status(500).json({
-        msg: "Data not Updated",
-        Error: err,
-      });
-    });
+const forgotPassword = async (req, res) => {
+  try {
+    const hashed = await bcrypt.hash(req.body.password, 10);
+    const updated = await Entrepreneur.findOneAndUpdate(
+      { email: req.body.email },
+      { password: hashed },
+      { new: true }
+    );
+    if (updated) res.status(200).json({ msg: "Password reset successfully" });
+    else res.status(404).json({ msg: "User not found" });
+  } catch (err) {
+    res.status(500).json({ msg: "Password reset failed", error: err.message });
+  }
 };
 
 // Reset Password for entrepreneur
 const resetPassword = async (req, res) => {
-  let pwdMatch = false;
+  try {
+    const user = await Entrepreneur.findById(req.params.id);
+    const isMatch = await bcrypt.compare(req.body.oldpassword, user.password);
+    if (!isMatch) return res.status(405).json({ msg: "Old password doesn't match" });
 
-  await Entrepreneur.findById(req.params.id)
-    .exec()
-    .then((data) => {
-      if (data.password === req.body.oldpassword) pwdMatch = true;
-    })
-    .catch((err) => {
-      res.status(500).json({
-        msg: "Data not Updated",
-        Error: err,
-      });
-    });
-
-  if (pwdMatch) {
-    await Entrepreneur.findByIdAndUpdate(req.params.id, {
-      password: req.body.newpassword,
-    })
-      .exec()
-      .then((data) => {
-        if (data != null)
-          res.status(200).json({
-            msg: "Updated successfully",
-          });
-        else
-          res.status(500).json({
-            msg: "User Not Found",
-          });
-      })
-      .catch((err) => {
-        res.status(500).json({
-          msg: "Data not Updated",
-          Error: err,
-        });
-      });
-  } else {
-    res.status(405).json({
-      msg: "Your Old Password doesn't match",
-    });
+    const hashedNewPwd = await bcrypt.hash(req.body.newpassword, 10);
+    await Entrepreneur.findByIdAndUpdate(req.params.id, { password: hashedNewPwd });
+    res.status(200).json({ msg: "Password updated successfully" });
+  } catch (err) {
+    res.status(500).json({ msg: "Password update failed", error: err.message });
   }
 };
 
@@ -408,34 +330,23 @@ const createToken = (user) => {
 };
 
 // Login
-const login = (req, res) => {
+const login = async (req, res) => {
   const { email, password } = req.body;
-  if (!email || !password) {
-    return res.status(400).json({ msg: "Email and password is required" });
+  if (!email || !password)
+    return res.status(400).json({ msg: "Email and password are required" });
+
+  try {
+    const user = await Entrepreneur.findOne({ email });
+    if (!user) return res.status(405).json({ msg: "User not found" });
+
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) return res.status(405).json({ msg: "Password Mismatch !!" });
+
+    const token = createToken(user);
+    res.status(200).json({ data: user, token, status: 200 });
+  } catch (err) {
+    res.status(500).json({ msg: "Something went wrong", error: err.message });
   }
-
-  Entrepreneur.findOne({ email })
-    .then((user) => {
-      if (!user) {
-        return res.json({ status: 405, msg: "User not found" });
-      }
-
-      if (user.password !== password) {
-        return res.json({ status: 405, msg: "Password Mismatch !!" });
-      }
-
-      const token = createToken(user);
-
-      res.json({
-        data: user,
-        status: 200,
-        token: token,
-      });
-    })
-    .catch((err) => {
-      console.log(err);
-      return res.status(500).json({ msg: "Something went wrong" });
-    });
 };
 
 // Validate Token
