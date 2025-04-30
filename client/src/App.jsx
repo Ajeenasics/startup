@@ -110,9 +110,7 @@ function App() {
           path="/entrepreneur/forgot-password"
           element={[<CommonNavbar />, <ForgotPassMain />]}
         />
-        <Route path="/entrepreneur/enthomepage" element={<Enthomepage />} />
-       
-        <Route
+      <Route
           path="/entrepreneur/pitch-my-idea"
           element={[<CommonNavbar />, <PitchMyIdea />]}
         />
@@ -176,7 +174,27 @@ function App() {
           path="/entrepreneur/viewbloglist/:id"
           element={<ViewBlogList />}
         />
-        {/* Invester Routes */}
+           <Route path="/entrepreneur/enthomepage" element={<Enthomepage />} />
+
+        <Route
+          path="/entrepreneur/entrepreneurchat/:id"
+          element={[
+            <HomepageNavbar />,
+            <EntrepreneurChat role={"ent"} />,
+            <Footer />,
+          ]}
+        />
+        <Route path="/entrepreneur/viewevents" element={<EntViewEvents />} />
+        <Route
+          path="/entrepreneur/registerevents/:eventId"
+          element={<EntRegisterEvents />}
+        />
+        <Route
+          path="/entrepreneur/addcomplaint"
+          element={<EntAddComplaint />}
+        />
+
+        {/* Invester Routes  */}
         <Route
           path="/investor/signup"
           element={[<CommonNavbar />, <InvesterRegister />]}
@@ -186,9 +204,14 @@ function App() {
           element={[<CommonNavbar />, <InvestorLogin />]}
         />
         <Route
+          path="/investor/updateprofile"
+          element={<InvestorUpdateProfile url={url} />}
+        /> 
+        <Route
           path="/investor/homepage"
           element={[<InvestorHomePage url={url} />, <Footer_3 />]}
         />
+         
         <Route
           path="/investor/entrepreneur_reqlist"
           element={<ViewEntreprenrueReqList />}
@@ -210,8 +233,14 @@ function App() {
           path="/investor/accepted_entrepreneur"
           element={<ViewAcceptedEntereprenuer />}
         />
+   
+    <Route path="/investor/chat" element={<InvestorChat url={url} />} />
+        <Route
+          path="/investor/addcomplaint"
+          element={<InvestorAddComplaint />}
+        />
 
-        {/* Mentor Routes */}
+       {/* Mentor Routes  */}
         <Route
           path="/mentor/signup"
           element={[<CommonNavbar />, <MentorRegister />]}
@@ -224,7 +253,6 @@ function App() {
           path="/mentor/forgot"
           element={[<CommonNavbar />, <Mentorforgotpswd />]}
         />
-        <Route path="/mentor/homepage" element={<MentorHomePage />} />
         <Route path="/mentor/updateprofile" element={<MentorUpdateProfile />} />
         <Route path="/mentor/homepage" element={<MentorHomePage />} />
         <Route path="/mentor/payment/:id" element={<MentorPayment />} />
@@ -241,7 +269,15 @@ function App() {
           path="/mentor/edittutorials/:id"
           element={<MentorEditTutorials />}
         />
-
+           
+        <Route
+          path="/mentor/mentorchat/:id"
+          element={[
+            <MentorNav />,
+            <EntrepreneurChat role={"ment"} />,
+            <Footer_4 />,
+          ]}
+        /> 
 
         {/* Common Routes */}
         <Route path="commonnavbar" element={<CommonNavbar />} />
@@ -267,7 +303,7 @@ function App() {
           path="/admin_dashboard/recent_mentorlist"
           element={<RecentMentorList />}
         />
- <Route
+        <Route
           path="/admin_dashboard/investor_accept/:id"
           element={<InvestorAccept />}
         />
@@ -297,6 +333,43 @@ function App() {
           path="/entrepreneur/viewallinvester"
           element={<ViewAllInversetes />}
         />
+           
+        <Route
+          path="/admin_dashboard/admin_addevent"
+          element={<AdminAddEvents />}
+        />
+        <Route
+          path="/admin_dashboard/admin_vieweventlist"
+          element={<AdminViewEventList />}
+        />
+        <Route
+          path="/admin_dashboard/admin_vieweventreglist/:eventid"
+          element={<AdminViewEventRegList />}
+        />
+        <Route
+          path="/admin_dashboard/viewallcomplaints"
+          element={<ViewAllCompaints />}
+        />
+
+         {/* chat */}
+
+        <Route
+          path="/entrepreneur/entchatwithinvestor/:id"
+          element={[
+            <HomepageNavbar />,
+            <EntchatwithInvestor role={"ent"} />,
+            <Footer_2 />,
+          ]}
+        />
+        <Route
+        path="/investor/investorchatwithent/:id"
+        element={[
+          <InvestorNav />,
+          <EntchatwithInvestor role={"invest"} />,
+          <Footer_3/>,
+        ]}
+      />
+
         <Route
           path="/investor/accepted_entrepreneur"
           element={<ViewAcceptedEntereprenuer />}
