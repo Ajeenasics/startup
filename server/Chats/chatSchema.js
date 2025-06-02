@@ -5,7 +5,7 @@ const messageSchema = new mongoose.Schema(
     msg: {
       type: String,
       required: true,
-      
+
     },
     from: {
       type: String,
@@ -15,16 +15,16 @@ const messageSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-   entId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "entrepreneurs"
+    entId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "entrepreneurs"
     },
-    mentorId:{
+    mentorId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "mentors"
-    
+
     },
-    date:{
+    date: {
       type: Date,
       required: true,
     }
